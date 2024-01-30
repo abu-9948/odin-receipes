@@ -1,0 +1,100 @@
+/*
+h1
+{
+    color: aliceblue;
+}
+
+h2{
+    color:chartreuse;
+}
+#player1
+{
+    
+    margin:100px;
+    padding: 0;
+    
+}
+#player2
+{
+    
+    margin:100px;
+    padding: 0;
+    
+}
+button
+{
+    margin: 10px;
+    border-radius: 8px;
+    width: 75px;
+}
+
+.end
+{
+  margin-bottom: 100px;
+}
+#result
+{
+    margin-bottom: 300px;
+    height: 40%;
+    
+}
+*/
+body {
+    background-color: rgb(64, 64, 235);
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  #game-container {
+   
+    flex-direction: column;
+    align-items: center;
+ 
+    text-align: center;
+  }
+  
+  h1 {
+    color: aliceblue;
+  }
+  
+  h2 {
+    color:darkgray;
+  }
+  
+  #players-container {
+    display: flex;
+    justify-content: space-around;
+   
+    margin: 100px;
+  }
+  
+  .player-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #player1,
+  #player2 {
+    margin-bottom: 5px;
+  }
+  
+  button {
+    margin: 10px;
+    border-radius: 8px;
+    width: 75px;
+  }
+  
+  #result {
+    text-align: center;
+    color: antiquewhite;
+    margin-bottom: 20px;
+  }
+  
+  #score,#score2 {
+    text-align: center;
+    color: antiquewhite;
+    font-size: 18px;
+    margin-top: 70px;
+  }
+  

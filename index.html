@@ -1,14 +1,93 @@
+<!--
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=\, initial-scale=1.0">
-    <title>Document</title>
-    <script src="./script.js"></script>
-    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock Paper Scissors Game</title>
+  <script src="./script.js" defer></script>
+  <link rel="stylesheet" href="./styles.css">
+  <style>
+    #result {
+      margin-top: 20px;
+      font-weight: bold;
+    }
+  </style>
 </head>
-<body>
-    <button id ="btn">Click me</button>
+
+<body style="background-color: blue;">
   
+  <button id="btn4">Play Again</button>
+  
+  <div id ="score"></div>
+  <div style="display: flex; " class = "end">
+  <div>
+<div>
+  <h1 style ="text-align: center;">Rock, Paper, Scissors!</h1>
+  <h2 style ="text-align: center;">Round: </h2>
+</div>
+
+<div style = " display: flex;">
+  <div class = "player1" style="color: antiquewhite;">
+    <h1 id="player1">Player 1</h1>
+    <button type="button" id="btn1">Rock</button>
+  <button type="button" id="btn2">Paper</button>
+  <button type="button" id="btn3">Scissors</button>
+  </div>
+  <div>
+    <h1 id="player2">Computer</h1>
+  </div>
+</div>
+</div>
+
+<div id="result"></div>
+
+</div>
+ 
 </body>
+</html>
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock Paper Scissors Game</title>
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./script.js" defer></script>
+</head>
+
+<body>
+  <div id="game-container">
+    <div style="margin-top: 50px;">
+      <h1>Rock, Paper, Scissors!</h1>
+      <h2>Round: </h2>
+    </div>
+
+    <div id="players-container">
+      <div class="player-buttons">
+        <h1 id="player1">Player 1</h1>
+        <button type="button" id="btn1">Rock</button>
+        <button type="button" id="btn2">Paper</button>
+        <button type="button" id="btn3">Scissors</button>
+        <div style= " " id="score"></div>
+        
+      </div>
+
+      <div>
+        <h1 id="player2">Computer</h1>
+        <div style= " margin-top: 200px;" id="score2"></div>
+      </div>
+      
+    </div>
+    
+    <div style ="margin: 25 px;" id="result"></div>
+    
+
+    <button style = "margin: 25 px;width: 135px;height: 3em;" id="btn4">Play Again</button>
+  </div>
+</body>
+
 </html>
